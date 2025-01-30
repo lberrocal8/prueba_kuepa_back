@@ -58,6 +58,17 @@ git clone https://github.com/lberrocal8/prueba_kuepa_back.git
   node server.js
 ```
 
+- Crear un archivo `.env` e insertar lo siguiente:
+
+```bash
+PORT=5000
+PG_HOST=localhost
+PG_USER=postgres
+PG_PASSWORD=Clave_de_acceso_a_postgre
+PG_DATABASE=kuepa
+PG_PORT=5432
+SECRET_KEY="Escriba_una_secret_aleatoria"
+```
 
 ## Referencia de la API
 
