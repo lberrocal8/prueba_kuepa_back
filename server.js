@@ -109,7 +109,7 @@ const authenticateToken = (req, res, next) => {
   });
 };
 
-app.get("/protected", authenticateToken, (req, res) => {
+app.get("/dashboard", authenticateToken, (req, res) => {
   res.json({ message: `Bienvenido, ${req.user.username}!`, user: req.user });
 });
 
