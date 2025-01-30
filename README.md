@@ -58,7 +58,7 @@ git clone https://github.com/lberrocal8/prueba_kuepa_back.git
   node server.js
 ```
 
-- Crear un archivo `.env` e insertar lo siguiente:
+- Crear un archivo `.env` e insertar lo siguiente: (Debe cambiar PG_PASSWORD y SECRET_KEY)
 
 ```bash
 PORT=5000
